@@ -1,0 +1,24 @@
+@media screen and (min-width: 900px) {
+
+    .cards{
+        display: flex;
+        flex-direction: row;
+
+        p{
+            line-height: 1rem;
+        }
+    }
+
+    .contact-cards{
+        display: flex;
+        flex-direction: row;
+        place-content: center;
+    }
+
+    .page-footer{
+        .social{
+            flex-direction: column;    
+        }
+    } 
+    
+}
